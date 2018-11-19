@@ -19,3 +19,13 @@
     right: 0;
     top: -50px;/
 }
+
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+
+.anim1 {
+    animation-name: example;
+}
+
